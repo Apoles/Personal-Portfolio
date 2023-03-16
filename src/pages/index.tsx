@@ -7,6 +7,8 @@ import ThemeToggler from '@/companent/toggle';
 
 const inter = Inter({ subsets: ['latin'] });
 
+const data = "I specialize in coding the stuff that nobody sees, but everyone needs. I'm the unsung hero of your app";
+
 export default function Home() {
   return (
     <>
@@ -50,9 +52,7 @@ export default function Home() {
 
             <br></br>
             <div className=' md:w-56 lg:w-96 '>
-              <p className='md:text-m  '>
-                "I specialize in coding the stuff that nobody sees, but everyone needs. I'm the unsung hero of your app
-              </p>
+              <p className='md:text-m  '>{data}</p>
             </div>
           </div>
           <div className='Button  flex flex-row justify-evenly mt-7'>
