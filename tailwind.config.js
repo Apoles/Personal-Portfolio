@@ -11,6 +11,12 @@ module.exports = {
   darkMode: 'class',
 
   theme: {
+    fontFamily: {
+      satisfies: ['Satisfy', 'cursive'],
+      tiltneon: ['Tilt Neon', 'cursive'],
+      indieFlower: ['Indie Flower', 'cursive'],
+      kalam: ['Kalam', 'cursive'],
+    },
     extend: {},
     screens: {
       '2xl': { max: '1535px' },
