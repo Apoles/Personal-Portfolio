@@ -71,6 +71,9 @@ export default function Home() {
             <div className='ml-3 transition ease-in-out delay-150  hover:scale-125 duration-75'>
               <SocialIcon url='https://www.linkedin.com/in/abdullah-gumus-91217a1b7'></SocialIcon>
             </div>
+            <div className='ml-3 transition ease-in-out delay-150  hover:scale-125 duration-75'>
+              <SocialIcon url='https://medium.com/@abdullahgumus'></SocialIcon>
+            </div>
           </div>
           <p className='bottom-3 fixed'>© Abdullah Gümüş - 2023</p>
         </div>
