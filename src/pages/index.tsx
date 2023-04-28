@@ -4,6 +4,8 @@ import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
 import { SocialIcon } from 'react-social-icons';
 import ThemeToggler from '@/companent/toggle';
+import Header from '@/companent/header';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,22 +22,7 @@ export default function Home() {
       </Head>
 
       <main className='font-kalam'>
-        <div
-          className='rowDiv flex flex-row items-center justify-evenly mt-5 
-      
-     
-
-      '
-        >
-          <div className='footerName flex flex-row '>
-            <h1 className='text-4xl md:text-2xl'>Abdullah</h1>{' '}
-            <h1 className='text-4xl text-red-600	 ml-2 md:text-2xl'>Gümüş</h1>
-          </div>
-
-          <div className='ml-7 flex flex-row '>
-            <ThemeToggler></ThemeToggler>
-          </div>
-        </div>
+        <Header></Header>
         <div className='flex flex-col items-center   w-screen'>
           <br></br>
           <br></br>
@@ -75,6 +62,26 @@ export default function Home() {
               <SocialIcon url='https://medium.com/@abdullahgumus'></SocialIcon>
             </div>
           </div>
+          <div className='mt-12'>
+            <Link href={'/resume'}>
+              <button
+                type='button'
+                className='px-4 py-3 bg-gray-100 rounded-md hover:border-red-700 border-2  duration-500  cursor-pointer`     text-black  focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform mx-5 flex'
+              >
+                <svg className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+                  <path
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    stroke-width='2'
+                    d='M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4'
+                  />
+                </svg>
+
+                <span className='ml-2'>Go to resume</span>
+              </button>
+            </Link>
+          </div>
+
           <p className='bottom-3 fixed'>© Abdullah Gümüş - 2023</p>
         </div>
       </main>
