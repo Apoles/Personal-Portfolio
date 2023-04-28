@@ -1,6 +1,7 @@
 import Header from '@/companent/header';
 import ThemeToggler from '@/companent/toggle';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
@@ -21,10 +22,8 @@ export default function Home() {
           <div className='md:w-1/3 p-2 relative sm:flex-col '>
             <div className='sm:flex sm:flex-col'>
               <div className=' sm:flex-col '>
-                <img
-                  className='h-32 w-32 rounded-full mx-auto '
-                  src='https://avatars3.githubusercontent.com/u/59800600?s=460&amp;u=95f222387f598c85508c9b6d5d8662ebf4ae8b85&amp;v=4'
-                />
+                <Image className='p-2' src='/avatar.svg' alt='Picture of the author' width={200} height={200}></Image>
+
                 <div className='mb-12 text-center mt-4 justify-center items-center'>
                   <h1 className='text-2xl  text-gray-800 font-bold'>Abdullah Gümüş</h1>
                   <div className='md:text-lg text-gray-600'>Backend Developer</div>
