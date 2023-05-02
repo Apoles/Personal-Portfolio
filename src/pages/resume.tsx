@@ -21,13 +21,13 @@ export default function Home() {
         <div className='mt-6 max-w-screen-lg md:flex mx-auto sm:flex sm:flex-col sm:items-center sm:justify-center sm:w-full'>
           <div className='md:w-1/3 p-2 relative sm:flex-col '>
             <div className='sm:flex sm:flex-col'>
-              <div className=' sm:flex-col '>
+              <div className=' sm:flex-col flex flex-col items-center justify-center '>
                 <Image className='p-2' src='/avatar.svg' alt='Picture of the author' width={200} height={200}></Image>
 
                 <div className='mb-12 text-center mt-4 justify-center items-center'>
-                  <h1 className='text-2xl  text-gray-800 font-bold'>Abdullah Gümüş</h1>
-                  <div className='md:text-lg text-gray-600'>Backend Developer</div>
-                  <div className='text-gray-600 md:hidden mt-1'>abdullahgumus14@hotmail.com</div>
+                  <h1 className='text-2xl  text-gray-800 font-bold dark:text-white'>Abdullah Gümüş</h1>
+                  <div className='md:text-lg text-gray-600 dark:text-white'>Backend Developer</div>
+                  <div className='text-gray-600 md:hidden mt-1 dark:text-white'>abdullahgumus14@hotmail.com</div>
                 </div>
               </div>
             </div>
@@ -36,25 +36,27 @@ export default function Home() {
             <div className='flex flex-col items-center justify-center'>
               <br></br>
               <div className='mx-4 flex flex-col justify-center items-center  '>
-                <h1 className='mb-4  text-4xl text-gray-700 font-bold'>Education</h1>
+                <h1 className='mb-4  text-4xl text-gray-700 font-bold dark:text-white'>Education</h1>
                 <ul>
                   <li className='mb-4'>
-                    <h2 className='text-2xl font-medium text-gray-800'>Sakarya Uygulamalı Bilimler Üniverstesi</h2>
+                    <h2 className='text-2xl font-medium text-gray-800 dark:text-white'>
+                      Sakarya Uygulamalı Bilimler Üniverstesi
+                    </h2>
                     <div className='mt-1'>
                       <div>
-                        <p>Mekatronik Mühendisliği</p>
+                        <p className='text-gray-400 '>Mekatronik Mühendisliği</p>
                         <i className='bx bx-calendar text-sm'></i>
-                        <small className='text-sm text-gray-600'>01/09/2018 - Present </small>
+                        <small className='text-sm text-gray-400 '>01/09/2018 - Present </small>
                       </div>
                     </div>
                   </li>
                 </ul>
                 <br></br>
 
-                <h1 className='mb-4 text-4xl text-gray-700 font-bold'>Experience</h1>
+                <h1 className='mb-4 text-4xl text-gray-700 font-bold dark:text-white'>Experience</h1>
                 <ul>
                   <li className='mb-4'>
-                    <h2 className='text-2xl font-medium text-gray-800'>Stajyer Selective Yazılım</h2>
+                    <h2 className='text-2xl font-medium text-gray-800 dark:text-white'>Stajyer Selective Yazılım</h2>
                     <div className='mt-1 space-y-1'>
                       <div>
                         <ul className='max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
@@ -72,7 +74,9 @@ export default function Home() {
                   </li>
 
                   <li className='mb-4'>
-                    <h2 className='text-2xl font-medium text-gray-800'>Backend Developer Akıl Fikir Mektebi</h2>
+                    <h2 className='text-2xl font-medium text-gray-800 dark:text-white'>
+                      Backend Developer Akıl Fikir Mektebi
+                    </h2>
                     <div className='mt-1 space-y-1'>
                       <div>
                         <ul className='max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
@@ -93,73 +97,36 @@ export default function Home() {
                 <br></br>
               </div>
             </div>
-            <div className='mx-4'>
-              <h1 className='mb-4 text-4xl text-gray-700 font-bold'>Skill</h1>
+            <div className='m-auto flex flex-col items-center justify-center w-2/3  '>
+              <h1 className='mb-4 text-4xl text-gray-700 font-bold dark:text-white  '>Skill</h1>
               <ul>
                 <li className='mb-6 flex flex-wrap'>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>Flask</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Python Pandas
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    ETL Automation
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Laravel/Lumen
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Composer Dependency
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Codeigniter
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>Slim</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    ExpressJS
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Code Principles
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Design Database
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Design Pattern
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    System Analysis
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>VueJS</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    ReactJS
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Flask</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Javascript</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Typescript</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>HTML5</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Node.js</span>{' '}
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Next </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Nest.js</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>React</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>AWS</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Slim</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>ExpressJS</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Code Principles</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Design Database</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Design Pattern</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Cloudflare</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>VueJS</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>ReactJS</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>
                     Tailwind css/Bootstrap
                   </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Sass/Scss
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Web Server
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Mail Server
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    PostgreSQL
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Mysql/MariaDB
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    MonggoDB
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Linux Sysadmin
-                  </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200'>
-                    Networking
-                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Sqlite</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>PostgreSQL</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>MongoDB</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Firabase</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Vercel</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>JWT</span>
                 </li>
               </ul>
             </div>
