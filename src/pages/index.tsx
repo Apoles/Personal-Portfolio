@@ -62,7 +62,7 @@ export default function Home() {
               <SocialIcon url='https://medium.com/@abdullahgumus'></SocialIcon>
             </div>
           </div>
-          <div className='mt-12'>
+          <div className='mt-7'>
             <Link href={'/resume'}>
               <button
                 type='button'
