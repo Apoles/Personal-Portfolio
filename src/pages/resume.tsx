@@ -97,36 +97,82 @@ export default function Home() {
                 <br></br>
               </div>
             </div>
-            <div className='m-auto flex flex-col items-center justify-center w-2/3  '>
+            <div className='m-auto flex flex-col items-center justify-center sm:w-full  w-2/3  '>
               <h1 className='mb-4 text-4xl text-gray-700 font-bold dark:text-white  '>Skill</h1>
               <ul>
                 <li className='mb-6 flex flex-wrap'>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Flask</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Javascript</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Typescript</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>HTML5</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Node.js</span>{' '}
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Next </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Nest.js</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>React</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>AWS</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Slim</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>ExpressJS</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Code Principles</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Design Database</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Design Pattern</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Cloudflare</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>VueJS</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>ReactJS</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer '>
+                    Flask
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Javascript
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Typescript
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    HTML5
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Node.js
+                  </span>{' '}
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Next{' '}
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Nest.js
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    React
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    AWS
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Slim
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    ExpressJS
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Code Principles
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Design Database
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Design Pattern
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Cloudflare
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    VueJS
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    ReactJS
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
                     Tailwind css/Bootstrap
                   </span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Sqlite</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>PostgreSQL</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>MongoDB</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Firabase</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>Vercel</span>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium '>JWT</span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Sqlite
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    PostgreSQL
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    MongoDB
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Firabase
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    Vercel
+                  </span>
+                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>
+                    JWT
+                  </span>
                 </li>
               </ul>
             </div>
