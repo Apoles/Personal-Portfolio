@@ -97,11 +97,11 @@ export default function Home() {
                 <br></br>
               </div>
             </div>
-            <div className='m-auto flex flex-col items-center justify-center sm:w-full  w-2/3  '>
+            <div className='m-auto flex flex-col items-center justify-center sm:w-full sm:m-0   w-2/3  '>
               <h1 className='mb-4 text-4xl text-gray-700 font-bold dark:text-white  '>Skill</h1>
               <ul>
-                <li className='mb-6 flex flex-wrap'>
-                  <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer '>
+                <li className='mb-6 flex flex-wrap  sm:items-center sm:justify-center'>
+                  <span className='mr-2 my-1 rounded-full border px-4  text-sm py-2 font-medium cursor-pointer '>
                     Flask
                   </span>
                   <span className='mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium cursor-pointer'>

@@ -44,22 +44,23 @@ export default function Home() {
           </div>
           <div className='Button  flex flex-row justify-evenly mt-7'>
             <SocialIcon
+              target='_blank'
               className='transition ease-in-out delay-150  hover:scale-125 duration-75'
               label='2px'
               url='https://twitter.com/Apoles_py'
             ></SocialIcon>
             <div className='ml-3 transition ease-in-out delay-150  hover:scale-125 duration-75 '>
-              <SocialIcon url='https://github.com/Apoles'></SocialIcon>
+              <SocialIcon target='_blank' url='https://github.com/Apoles'></SocialIcon>
             </div>
             <div className='ml-3 transition ease-in-out delay-150  hover:scale-125 duration-75'>
               {' '}
-              <SocialIcon url='https://www.instagram.com/abdullahgms_offical'></SocialIcon>
+              <SocialIcon target='_blank' url='https://www.instagram.com/abdullahgms_offical'></SocialIcon>
             </div>
             <div className='ml-3 transition ease-in-out delay-150  hover:scale-125 duration-75'>
-              <SocialIcon url='https://www.linkedin.com/in/abdullah-gumus-91217a1b7'></SocialIcon>
+              <SocialIcon target='_blank' url='https://www.linkedin.com/in/abdullah-gumus-91217a1b7'></SocialIcon>
             </div>
             <div className='ml-3 transition ease-in-out delay-150  hover:scale-125 duration-75'>
-              <SocialIcon url='https://medium.com/@abdullahgumus'></SocialIcon>
+              <SocialIcon target='_blank' url='https://medium.com/@abdullahgumus'></SocialIcon>
             </div>
           </div>
           <div className='mt-7'>

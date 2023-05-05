@@ -15,25 +15,25 @@ const Header = () => {
 
   return (
     <div
-      className={`sticky  backdrop:blur-lg  top-0 z-30 w-full  ${
-        animateHeader ? '' : 'backdrop-filter  backdrop-blur-sm  fixed z-10 trasition ease-in-out duration-5s00s'
+      className={`sticky  backdrop:blur-lg  top-0 z-  30 w-full  ${
+        animateHeader ? '' : 'backdrop-filter   backdrop-blur-sm  fixed top-0 z-10 trasition ease-in-out duration-5s00s'
       }`}
     >
       <motion.div className='progress-bar' style={{ scaleX }} />
 
       <div
-        className='rowDiv flex flex-row items-center justify-evenly mt-5 
+        className='rowDiv flex flex-row items-center justify-evenly mt-5  
 '
       >
         <Link href={'/'}>
           {' '}
-          <div className='footerName flex flex-row '>
+          <div className='footerName flex flex-row mt-5'>
             <h1 className='text-4xl md:text-2xl'>Abdullah</h1>{' '}
             <h1 className='text-4xl text-red-600	 ml-2 md:text-2xl'>Gümüş</h1>
           </div>
         </Link>
 
-        <div className='ml-7 flex flex-row '>
+        <div className='ml-7 flex flex-row  '>
           <ThemeToggler></ThemeToggler>
         </div>
       </div>
